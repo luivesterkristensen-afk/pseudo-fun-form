@@ -3,12 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boilerplate</title>
+    <title>Boilerplate TEST</title>
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/site.js" defer></script>
     <link rel="shortcut icon" href="/assets/img/favicon.icon" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="container"> 
+    <form action="" onsubmit="successFunction()">
+        <div class="header">
+            <div>
+                <legend>Sign Up</legend>
+            </div>
+            <div id="signup">
+                <img src="assets/img/Blue-Progress.svg" alt="Progress Bar">
+                <div>
+                    <img src="assets/img/Blue-Circle-A.svg" alt="" class="disabled">
+                    <img src="assets/img/Blue-Circle-B.svg" alt="" class="disabled">
+                    <img src="assets/img/Blue-Circle-C.svg" alt="" class="disabled">
+                    <img src="assets/img/Blue-Circle-D.svg" alt="" class="disabled">
+                    <img src="assets/img/Blue-Circle-E.svg" alt="" class="disabled">
+                </div>
+            </div>
+        </div>
+        <label for="Name">Name:</label>
+        <input type="text" class="nameinput" placeholder="Write your name here" required></input>
+        <label for="Email" >Email:</label>
+        <input type="email" class="emailinput" placeholder="123@mail.com" required></input>
+        <label for="age">Age:</label>
+        <input type="number" class="ageinput" placeholder="Enter your age here" required></input>
+        <label for="password">Password:</label>
+        <input type="password" class="passwordinput" id="password" placeholder="Create a password" required></input>
+        <label class="passwordrepeat" for="confirm_password">Confirm Password:</label>
+        <input type="password" class="passwordrepeatinput" id="confirm_password" placeholder="Repeat your password" required></input>
+        <button>Sign Up</button>
+    </form>
+    </div>
 </body>
 </html>
