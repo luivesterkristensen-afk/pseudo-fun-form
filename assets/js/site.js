@@ -17,4 +17,5 @@ confirm_password.onkeyup = validatePassword;
 
 function successFunction() {
     alert("Congratulations! You have successfully signed up!");
+    
 }
