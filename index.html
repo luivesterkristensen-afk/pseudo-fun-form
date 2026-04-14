@@ -6,9 +6,11 @@
     <title>Boilerplate TEST</title>
     <link rel="stylesheet" href="/assets/css/site.css">
     <script src="/assets/js/site.js" defer></script>
+    <script src="/assets/js/dialog.js" defer></script>
     <link rel="shortcut icon" href="/assets/img/favicon.icon" type="image/x-icon">
 </head>
 <body>
+    <dialog id="signUpDialog">
     <div class="container"> 
     <form action="" onsubmit="successFunction()">
         <div class="header">
@@ -39,5 +41,23 @@
         <button>Sign Up</button>
     </form>
     </div>
+    </dialog>
+    <!-- LANDING PAGE CONTENT HERE -->
+     <div class="wrapper">
+
+     
+     <nav>
+      <h1>Wildroot</h1>
+      <div class="navbuttons">
+      <button onclick="openDialog()">Sign Up</button>
+      <button>Login</button>
+      </div>
+     </nav>
+     <!-- HERO SECTION -->
+      <main>
+        <h2>Rooted in Nature, Made for You</h2>
+        <p>Every product begins with respect for the earth. Carefully made, thoughtfully chosen, and designed to fit into real life.</p>
+      </main>
+      </div>
 </body>
 </html>

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wrapper {
+    max-width: 90%;
+    
+    margin: auto;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    margin-top: 1%;
+}
+
+.navbuttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    
+}
+
+nav h1 {
+    color: rgb(249, 247, 247);
+    font-family: Gelasio, sans-serif;
+    font-size: 2rem;
+    
+}
+
+
+.navbuttons button {
+    background-color: transparent;
+    border-color: rgb(249, 247, 247);
+    border-radius: 99px;
+    color: rgb(249, 247, 247);
+    border: 2px solid rgb(249, 247, 247);
+    padding: 10px 35px;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 80vh;
+    justify-content: center;
+    gap: 5px;
+}
+main h2 {
+    font-family: Gelasio, sans-serif;
+    font-size: 26px;
+    color: rgb(249, 247, 247);;
+    
+}
+
+main p {
+    color: rgb(249, 247, 247);
+    font-size: 18px;
+    font-family: sans-serif;
+    hyphens: auto;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 300px;
+    }
+   nav {
+    grid-template-columns: 1fr 10fr;
+    margin-top: 2%;
+}
+
+.navbuttons button {
+    padding: 10px 20px;
+}
+
+main p {
+    text-align: left;
+}
+    
+}
